@@ -12,10 +12,10 @@
 
     <!-- Menu -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid" style="background-color: rgba(9, 19, 16, 0.59);">
 
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="assets/logo.png" alt=""></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,11 +27,11 @@
                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about">ABOUT US</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">PAGES <i class="fa-solid fa-angle-down"></i></a>
+                <a class="nav-link" href="#service">PAGES <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">PAGES-1</a></li>
                     <li><a class="dropdown-item" href="#">PAGES-2</a></li>
@@ -53,7 +53,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT LAYOUT <i class="fa-solid fa-angle-down"></i></a>
+                <a class="nav-link" href="#contact">CONTACT LAYOUT <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">CONTACT LAYOUT-1</a></li>
                     <li><a class="dropdown-item" href="#">CONTACT LAYOUT-2</a></li>
@@ -66,26 +66,18 @@
           </div>
         </div>
     </nav>
+
+    <div class="banner text-center">
+      <h1>Craft Wooden</h1>
+      <h3>HOUSES AND COTTAGES</h3>
+      <a class="btn" href="#contact">READ MORE</a>
+    </div>
     </header>
     <!-- Menu-End -->
 
     <main>
-    <!-- Banner -->
-    <section class="banner">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-12 text-center">
-            <h1>Craft Wooden</h1>
-            <h3>HOUSES AND COTTAGES</h3>
-            <a class="btn" href="#">READ MORE</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Banner-End -->
-
     <!-- Service -->
-    <section class="service">
+    <section class="service" id="service">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -96,7 +88,7 @@
                 <p class="card-text">Aliquam quis nibh id neque rutrumop laoreet nulla</p>
               </div>
               <div class="card-btn">
-                <a class="btn cb" href="#">READ MORE</a>
+                <a class="btn cb" href="#contact">READ MORE</a>
               </div>
             </div>
           </div>
@@ -109,7 +101,7 @@
                 <p class="card-text">Aliquam quis nibh id neque rutrumop laoreet nulla</p>
               </div>
               <div class="card-btn">
-                <a class="btn cb" href="#">READ MORE</a>
+                <a class="btn cb" href="#contact">READ MORE</a>
               </div>
             </div>
           </div>
@@ -122,7 +114,7 @@
                 <p class="card-text">Aliquam quis nibh id neque rutrumop laoreet nulla</p>
               </div>
               <div class="card-btn">
-                <a class="btn cb" href="#">READ MORE</a>
+                <a class="btn cb" href="#contact">READ MORE</a>
               </div>
             </div>
           </div>
@@ -135,7 +127,7 @@
                 <p class="card-text">Aliquam quis nibh id neque rutrumop laoreet nulla</p>
               </div>
               <div class="card-btn">
-                <a class="btn cb" href="#">READ MORE</a>
+                <a class="btn cb" href="#contact">READ MORE</a>
               </div>
             </div>
           </div>
@@ -145,7 +137,7 @@
     <!-- Service-End -->
 
     <!-- About -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -171,7 +163,7 @@
     <!-- About-End -->
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -190,6 +182,7 @@
             </form>
             </div>
           </div>
+
           <div class="col">
             <div class="contact-img">
               <img src="assets/ia-5.jpg" alt="">
@@ -201,7 +194,26 @@
     <!-- Contact-End -->
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="footer-content">
+              <p>&copy; WoodWorks. All Right Reserved. Designed By Muzarul Islam</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-icon text-end">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     
   </body>
 </html>
